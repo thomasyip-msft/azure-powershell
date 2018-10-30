@@ -66,7 +66,7 @@
     <Compile Include="ScenarioTests\ModuleTests.cs" />
     <Compile Include="ScenarioTests\SourceControlTests.cs" />
     <Compile Include="ScenarioTests\UpdateManagementTests.cs" />
-    <Compile Include="ScenarioTests\Webhook\WebhookTests.cs" />
+    <Compile Include="ScenarioTests\WebhookTests.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeConfigurationDeploymentSchedulesTest.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeConfigurationTest.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeReportTest.cs" />
@@ -164,7 +164,7 @@
     <None Include="ScenarioTests\Resources\Write-DebugAndVerboseOutput.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="ScenarioTests\Webhook\WebhookTests.ps1">
+    <None Include="ScenarioTests\WebhookTests.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <Content Include="SessionRecords\Commands.Automation.Test.ModuleTests\GetAllModules.json">
