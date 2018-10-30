@@ -27,12 +27,6 @@ function Create-PublishedRunbook {
 }
 
 function Initialize-TestEnvironment {
-    $aaAccount = New-AzureRmAutomationAccount -Name $script:AutomationAccountName -ResourceGroupName $script:ResourceGroupName -Location $script:TestLocation
-    if ($null -eq $aaAccount)
-    {
-        throw "Unable to create new automation account for tests"
-    }
-
     Create-PublishedRunbook -Name $script:TestRunbookName -RunbookScript 'Write-Output "No parameters webhook"'
 
     Create-PublishedRunbook -Name $script:TestRunbookTwoParamsName -RunbookScript 'param
@@ -350,7 +344,6 @@ function Test-GetWebhookFailureScenarios {
     catch {
         Assert-AreEqual $results.Count 0
         Assert-AreEqual $_.FullyQualifiedErrorId "Microsoft.Azure.Commands.Automation.Cmdlet.GetAzureAutomationWebhook"
-        write-host $_.CategoryInfo
         Assert-True { $_.CategoryInfo -match "ErrorResponseException" }
     }
 
