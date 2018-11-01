@@ -1,0 +1,209 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "/subscriptions/422b6c61-95b0-4213-b3be-7282315df71d/resourceGroups/DoesntExistWebhookRG/providers/Microsoft.Automation/automationAccounts/mirichmo-aatest-WUS2/webhooks?api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvNDIyYjZjNjEtOTViMC00MjEzLWIzYmUtNzI4MjMxNWRmNzFkL3Jlc291cmNlR3JvdXBzL0RvZXNudEV4aXN0V2ViaG9va1JHL3Byb3ZpZGVycy9NaWNyb3NvZnQuQXV0b21hdGlvbi9hdXRvbWF0aW9uQWNjb3VudHMvbWlyaWNobW8tYWF0ZXN0LVdVUzIvd2ViaG9va3M/YXBpLXZlcnNpb249MjAxNS0xMC0zMQ==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "0ffbd3e5-a3b4-49a6-824d-972390e7ae3d"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.17763",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ],
+        "x-ms-activity-id": [
+          "97745f4c-8abe-43c2-b0e5-fc1d313a25bc"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"error\": {\r\n    \"code\": \"ResourceGroupNotFound\",\r\n    \"message\": \"Resource group 'DoesntExistWebhookRG' could not be found.\"\r\n  }\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "112"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-failure-cause": [
+          "gateway"
+        ],
+        "x-ms-request-id": [
+          "b24cfa1f-9aed-4c5b-9a91-4bd61d7da0f1"
+        ],
+        "x-ms-correlation-request-id": [
+          "b24cfa1f-9aed-4c5b-9a91-4bd61d7da0f1"
+        ],
+        "x-ms-routing-request-id": [
+          "WESTUS2:20181101T185453Z:b24cfa1f-9aed-4c5b-9a91-4bd61d7da0f1"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Thu, 01 Nov 2018 18:54:53 GMT"
+        ]
+      },
+      "StatusCode": 404
+    },
+    {
+      "RequestUri": "/subscriptions/422b6c61-95b0-4213-b3be-7282315df71d/resourceGroups/mirichmo-aatest-wus2-rg/providers/Microsoft.Automation/automationAccounts/mirichmo-aatest-WUS2/webhooks/DoesntExistWebhook?api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvNDIyYjZjNjEtOTViMC00MjEzLWIzYmUtNzI4MjMxNWRmNzFkL3Jlc291cmNlR3JvdXBzL21pcmljaG1vLWFhdGVzdC13dXMyLXJnL3Byb3ZpZGVycy9NaWNyb3NvZnQuQXV0b21hdGlvbi9hdXRvbWF0aW9uQWNjb3VudHMvbWlyaWNobW8tYWF0ZXN0LVdVUzIvd2ViaG9va3MvRG9lc250RXhpc3RXZWJob29rP2FwaS12ZXJzaW9uPTIwMTUtMTAtMzE=",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "a8b7eb3c-d8c0-4b8b-921b-831ee1224219"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.17763",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ],
+        "x-ms-activity-id": [
+          "549755ea-b30b-45b0-b936-afea4caf7d87"
+        ]
+      },
+      "ResponseBody": "Webhook not found.",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "18"
+        ],
+        "Content-Type": [
+          "text/plain; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "549755ea-b30b-45b0-b936-afea4caf7d87"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11994"
+        ],
+        "x-ms-correlation-request-id": [
+          "d1a288c0-1931-44ca-8cb6-642f295f7fb1"
+        ],
+        "x-ms-routing-request-id": [
+          "WESTUS2:20181101T185453Z:d1a288c0-1931-44ca-8cb6-642f295f7fb1"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Thu, 01 Nov 2018 18:54:53 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ],
+        "X-Powered-By": [
+          "ASP.NET"
+        ]
+      },
+      "StatusCode": 404
+    },
+    {
+      "RequestUri": "/subscriptions/422b6c61-95b0-4213-b3be-7282315df71d/resourceGroups/mirichmo-aatest-wus2-rg/providers/Microsoft.Automation/automationAccounts/mirichmo-aatest-WUS2/webhooks?$filter=properties/runbook/name%20eq%20'DoesntExistWebhookRunbook'&api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvNDIyYjZjNjEtOTViMC00MjEzLWIzYmUtNzI4MjMxNWRmNzFkL3Jlc291cmNlR3JvdXBzL21pcmljaG1vLWFhdGVzdC13dXMyLXJnL3Byb3ZpZGVycy9NaWNyb3NvZnQuQXV0b21hdGlvbi9hdXRvbWF0aW9uQWNjb3VudHMvbWlyaWNobW8tYWF0ZXN0LVdVUzIvd2ViaG9va3M/JGZpbHRlcj1wcm9wZXJ0aWVzL3J1bmJvb2svbmFtZSUyMGVxJTIwJ0RvZXNudEV4aXN0V2ViaG9va1J1bmJvb2snJmFwaS12ZXJzaW9uPTIwMTUtMTAtMzE=",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "25d9399b-ebfd-436b-93cf-e0c1b8e33957"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.17763",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ],
+        "x-ms-activity-id": [
+          "41abf2fd-21b7-4d5d-9791-0e1916a83651"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"value\": []\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "12"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "41abf2fd-21b7-4d5d-9791-0e1916a83651"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11993"
+        ],
+        "x-ms-correlation-request-id": [
+          "e179dd31-9235-40b1-8c3a-5933b529fd76"
+        ],
+        "x-ms-routing-request-id": [
+          "WESTUS2:20181101T185454Z:e179dd31-9235-40b1-8c3a-5933b529fd76"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Thu, 01 Nov 2018 18:54:53 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ],
+        "X-Powered-By": [
+          "ASP.NET"
+        ]
+      },
+      "StatusCode": 200
+    }
+  ],
+  "Names": {},
+  "Variables": {
+    "SubscriptionId": "422b6c61-95b0-4213-b3be-7282315df71d"
+  }
+}

@@ -248,7 +248,22 @@
     <Content Include="SessionRecords\Commands.Automation.Test.UpdateManagementTests\GetAllSUCsForVM.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup -->
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\BasicWebhookCrud.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetWebhookFailureScenarios.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetWebhookSuccessScenarios.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewAutomationWebhookWithParameters.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\WebhookCreateFailsIfMandatoryParametersNotSpecified.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
