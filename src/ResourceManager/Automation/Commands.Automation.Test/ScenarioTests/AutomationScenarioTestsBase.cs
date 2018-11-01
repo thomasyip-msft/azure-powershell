@@ -55,22 +55,12 @@ namespace Microsoft.Azure.Commands.Automation.Test
             {
                 SetupManagementClients(context);
 
-<<<<<<< HEAD
-                var callingClassName = callingClassType?
-=======
-                _helper.SetupEnvironment(AzureModule.AzureResourceManager);
-
                 var callingClassName = callingClassType ?
->>>>>>> Changes that I am unsure about
                     .Split(new[] { "." }, StringSplitOptions.RemoveEmptyEntries)
                     .Last();
 
                 var scriptLocation = Path.Combine("ScenarioTests", callingClassName + ".ps1");
                 _helper.SetupModules(
-<<<<<<< HEAD
-=======
-                    AzureModule.AzureResourceManager,
->>>>>>> Changes that I am unsure about
                     scriptLocation,
                     _helper.RMProfileModule,
                     _helper.GetRMModulePath(@"AzureRM.Automation.psd1"), "AzureRM.Resources.ps1");
