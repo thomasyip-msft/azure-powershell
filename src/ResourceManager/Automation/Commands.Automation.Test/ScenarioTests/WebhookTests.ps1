@@ -85,7 +85,7 @@ Test-BasicWebhookCrud: Webhook CRUD - Create, Get, Set, Remove
 #>
 function Test-BasicWebhookCrud {
     try {
-        $testWebhookName = "testWebhookName-$(Get-Random)"
+        $testWebhookName = "testWebhookName-ed41c2d4-0055-41e8-b48d-800042358f21"
     
         Initialize-TestEnvironment
 
@@ -158,7 +158,7 @@ Test-NewAutomationWebhookWithParameters
 #>
 function Test-NewAutomationWebhookWithParameters {
     try {
-        $testWebhookName = "testWebhookName-$(Get-Random)"
+        $testWebhookName = "testWebhookName-3fa8650e-d364-4c4a-8a95-9dd13766ef1b"
 
         Initialize-TestEnvironment
 
@@ -213,7 +213,7 @@ Test-WebhookCreateFailsIfMandatoryParametersNotSpecified
 #>
 function Test-WebhookCreateFailsIfMandatoryParametersNotSpecified {
     try {
-        $testWebhookName = "testWebhookName-$(Get-Random)"
+        $testWebhookName = "testWebhookName-54ed2ef9-c540-4534-9c2c-d924d8e9de58"
     
         Initialize-TestEnvironment
 
@@ -260,7 +260,7 @@ Test-GetWebhookSuccessScenarios
 #>
 function Test-GetWebhookSuccessScenarios {
     try {
-        $testWebhookName = "testWebhookName-$(Get-Random)"
+        $testWebhookName = "testWebhookName-5398a8e5-a019-449b-bd90-147bb27d7f71"
 
         Initialize-TestEnvironment
 

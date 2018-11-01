@@ -12,7 +12,7 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
-namespace CAT //Commands.Automation.Test
+namespace Commands.Automation.Test
 {
     using Microsoft.Azure.Commands.Automation.Test;
     using Microsoft.WindowsAzure.Commands.ScenarioTest;
