@@ -51,9 +51,9 @@ namespace Commands.Automation.Test
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void WebhookCreateFailsIfMandatoryParametersNotSpecified()
+        public void WebhookCreateFailureParams()
         {
-            RunPowerShellTest(logger, "Test-WebhookCreateFailsIfMandatoryParametersNotSpecified");
+            RunPowerShellTest(logger, "Test-WebhookCreateFailureParams");
         }
 
         //[Fact(Skip = "Test needs to be re-recorded.")]

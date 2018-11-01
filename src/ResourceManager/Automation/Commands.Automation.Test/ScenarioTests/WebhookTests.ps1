@@ -209,9 +209,9 @@ function Test-NewAutomationWebhookWithParameters {
 }
 
 <#
-Test-WebhookCreateFailsIfMandatoryParametersNotSpecified
+Test-WebhookCreateFailureParams
 #>
-function Test-WebhookCreateFailsIfMandatoryParametersNotSpecified {
+function Test-WebhookCreateFailureParams {
     try {
         $testWebhookName = "testWebhookName-54ed2ef9-c540-4534-9c2c-d924d8e9de58"
     
