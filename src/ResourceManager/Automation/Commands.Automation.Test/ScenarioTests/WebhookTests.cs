@@ -29,49 +29,44 @@ namespace Commands.Automation.Test
             XunitTracingInterceptor.AddToContext(logger);
         }
 
-        //[Fact(Skip = "Test needs to be re-recorded.")]
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void BasicWebhookCrud()
+        public void BasicCrud()
         {
-            RunPowerShellTest(logger, "Test-BasicWebhookCrud");
+            RunPowerShellTest(logger, "Test-BasicCrud");
         }
 
-        //[Fact(Skip = "Test needs to be re-recorded.")]
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void NewAutomationWebhookWithParameters()
+        public void NewWithParameters()
         {
-            RunPowerShellTest(logger, "Test-NewAutomationWebhookWithParameters");
+            RunPowerShellTest(logger, "Test-NewWithParameters");
         }
 
-        //[Fact(Skip = "Test needs to be re-recorded.")]
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void WebhookCreateFailureParams()
+        public void NewFailureParams()
         {
-            RunPowerShellTest(logger, "Test-WebhookCreateFailureParams");
+            RunPowerShellTest(logger, "Test-NewFailureParams");
         }
 
-        //[Fact(Skip = "Test needs to be re-recorded.")]
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void GetWebhookSuccessScenarios()
+        public void GetSuccessScenarios()
         {
-            RunPowerShellTest(logger, "Test-GetWebhookSuccessScenarios");
+            RunPowerShellTest(logger, "Test-GetSuccessScenarios");
         }
 
-        //[Fact(Skip = "Test needs to be re-recorded.")]
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void GetWebhookFailureScenarios()
+        public void GetFailureScenarios()
         {
-            RunPowerShellTest(logger, "Test-GetWebhookFailureScenarios");
+            RunPowerShellTest(logger, "Test-GetFailureScenarios");
         }
     }
 }

@@ -81,9 +81,9 @@ function Compare-ImmutableProperties {
 
 
 <#
-Test-BasicWebhookCrud: Webhook CRUD - Create, Get, Set, Remove
+Test-BasicCrud: Webhook CRUD - Create, Get, Set, Remove
 #>
-function Test-BasicWebhookCrud {
+function Test-BasicCrud {
     try {
         $testWebhookName = "testWebhookName-ed41c2d4-0055-41e8-b48d-800042358f21"
     
@@ -154,9 +154,9 @@ function Test-BasicWebhookCrud {
 }
 
 <#
-Test-NewAutomationWebhookWithParameters
+Test-NewWithParameters
 #>
-function Test-NewAutomationWebhookWithParameters {
+function Test-NewWithParameters {
     try {
         $testWebhookName = "testWebhookName-3fa8650e-d364-4c4a-8a95-9dd13766ef1b"
 
@@ -209,9 +209,9 @@ function Test-NewAutomationWebhookWithParameters {
 }
 
 <#
-Test-WebhookCreateFailureParams
+Test-NewFailureParams
 #>
-function Test-WebhookCreateFailureParams {
+function Test-NewFailureParams {
     try {
         $testWebhookName = "testWebhookName-54ed2ef9-c540-4534-9c2c-d924d8e9de58"
     
@@ -256,9 +256,9 @@ function Test-WebhookCreateFailureParams {
 }
 
 <#
-Test-GetWebhookSuccessScenarios
+Test-GetSuccessScenarios
 #>
-function Test-GetWebhookSuccessScenarios {
+function Test-GetSuccessScenarios {
     try {
         $testWebhookName = "testWebhookName-5398a8e5-a019-449b-bd90-147bb27d7f71"
 
@@ -330,9 +330,9 @@ function Test-GetWebhookSuccessScenarios {
 }
 
 <#
-Test-GetWebhookFailureScenarios
+Test-GetFailureScenarios
 #>
-function Test-GetWebhookFailureScenarios {
+function Test-GetFailureScenarios {
     # Test: Get Throws for Non-Existant Webhook By ResourceGroupName
     try {
         $results = Get-AzureRmAutomationWebhook `

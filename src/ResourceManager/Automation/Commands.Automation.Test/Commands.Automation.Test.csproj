@@ -248,19 +248,19 @@
     <Content Include="SessionRecords\Commands.Automation.Test.UpdateManagementTests\GetAllSUCsForVM.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\BasicWebhookCrud.json">
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\BasicCrud.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetWebhookFailureScenarios.json">
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetFailureScenarios.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetWebhookSuccessScenarios.json">
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetSuccessScenarios.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewAutomationWebhookWithParameters.json">
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewFailureParams.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\WebhookCreateFailureParams.json">
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewWithParameters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
