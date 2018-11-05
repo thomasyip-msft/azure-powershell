@@ -7,34 +7,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "1c8340e0-7c07-4df6-b0f1-66305949c9ed"
+          "5875c725-4a9e-4081-b166-a38d9aaf4f05"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Azure\",\r\n  \"name\": \"Azure\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": null,\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": true,\r\n    \"version\": \"1.0.3\",\r\n    \"sizeInBytes\": 41338511,\r\n    \"activityCount\": 673,\r\n    \"creationTime\": \"2016-12-12T23:12:12.17-08:00\",\r\n    \"lastModifiedTime\": \"2018-10-25T18:14:24.5666667-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Created\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "592"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "1c8340e0-7c07-4df6-b0f1-66305949c9ed"
+          "5875c725-4a9e-4081-b166-a38d9aaf4f05"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -43,10 +33,10 @@
           "11999"
         ],
         "x-ms-correlation-request-id": [
-          "854fc224-822a-4242-af6d-01d5423efb6d"
+          "59cecdcf-4b6b-4ba9-be83-8b7c8e8b19cb"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214602Z:854fc224-822a-4242-af6d-01d5423efb6d"
+          "WESTUS2:20181105T200820Z:59cecdcf-4b6b-4ba9-be83-8b7c8e8b19cb"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -55,7 +45,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:46:01 GMT"
+          "Mon, 05 Nov 2018 20:08:20 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -65,8 +55,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "592"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Azure\",\r\n  \"name\": \"Azure\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": null,\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": true,\r\n    \"version\": \"1.0.3\",\r\n    \"sizeInBytes\": 41338511,\r\n    \"activityCount\": 673,\r\n    \"creationTime\": \"2016-12-12T23:12:12.17-08:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T21:56:58.3766667-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Created\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     }
   ],

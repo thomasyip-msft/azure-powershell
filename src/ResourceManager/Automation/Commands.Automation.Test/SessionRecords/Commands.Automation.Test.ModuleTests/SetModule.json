@@ -7,34 +7,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "cdffd42b-14c4-45e3-81e6-3c2f65a11438"
+          "8707f3c5-e47e-4566-8aed-40401e86c01a"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"code\": \"NotFound\",\r\n  \"message\": \"\"\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "32"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "cdffd42b-14c4-45e3-81e6-3c2f65a11438"
+          "8707f3c5-e47e-4566-8aed-40401e86c01a"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -43,10 +33,10 @@
           "11999"
         ],
         "x-ms-correlation-request-id": [
-          "6cd6d3a2-110c-46af-a0c4-0406906b9300"
+          "16f6841e-08c8-45f0-b319-27667af9f4a4"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214418Z:6cd6d3a2-110c-46af-a0c4-0406906b9300"
+          "WESTUS2:20181105T200656Z:16f6841e-08c8-45f0-b319-27667af9f4a4"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -55,7 +45,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:17 GMT"
+          "Mon, 05 Nov 2018 20:06:56 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -65,9 +55,19 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "585"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
-      "StatusCode": 404
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:55.6233333-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:55.6866667-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
+      "StatusCode": 200
     },
     {
       "RequestUri": "/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31",
@@ -76,34 +76,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "8b2e700c-e028-41f8-a254-083be8f035b4"
+          "d79ca9c2-145c-4014-a09b-7050a4b5ca52"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "8b2e700c-e028-41f8-a254-083be8f035b4"
+          "d79ca9c2-145c-4014-a09b-7050a4b5ca52"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -112,10 +102,10 @@
           "11998"
         ],
         "x-ms-correlation-request-id": [
-          "48d18e7e-27ca-42bc-8f6e-2ffdd511bdf9"
+          "20fafe42-36e1-4414-8fcc-830f506b43c7"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214419Z:48d18e7e-27ca-42bc-8f6e-2ffdd511bdf9"
+          "WESTUS2:20181105T200658Z:20fafe42-36e1-4414-8fcc-830f506b43c7"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -124,7 +114,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:19 GMT"
+          "Mon, 05 Nov 2018 20:06:57 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -134,8 +124,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -145,34 +145,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "1bbfd060-7e35-4493-b0a0-2e269a662b1f"
+          "eb987a1e-a3b3-422f-aff4-c752d542a30b"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "1bbfd060-7e35-4493-b0a0-2e269a662b1f"
+          "eb987a1e-a3b3-422f-aff4-c752d542a30b"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -181,10 +171,10 @@
           "11997"
         ],
         "x-ms-correlation-request-id": [
-          "7190553d-c50c-4c7a-9466-e2a5fdfc4b45"
+          "5d8451b3-38bb-47cd-80e1-5820af48a6a3"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214429Z:7190553d-c50c-4c7a-9466-e2a5fdfc4b45"
+          "WESTUS2:20181105T200708Z:5d8451b3-38bb-47cd-80e1-5820af48a6a3"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -193,7 +183,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:29 GMT"
+          "Mon, 05 Nov 2018 20:07:07 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -203,8 +193,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -214,34 +214,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "e47dd8ac-bc53-4a79-b54b-699142655507"
+          "dd165851-aaf0-43eb-aab9-3f2b950ebd15"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "e47dd8ac-bc53-4a79-b54b-699142655507"
+          "dd165851-aaf0-43eb-aab9-3f2b950ebd15"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -250,10 +240,10 @@
           "11996"
         ],
         "x-ms-correlation-request-id": [
-          "1870aeac-32a3-4bc9-aba7-7da608272454"
+          "a6cd18cf-50bb-41a4-9d2d-b5b139677b6c"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214439Z:1870aeac-32a3-4bc9-aba7-7da608272454"
+          "WESTUS2:20181105T200718Z:a6cd18cf-50bb-41a4-9d2d-b5b139677b6c"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -262,7 +252,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:39 GMT"
+          "Mon, 05 Nov 2018 20:07:18 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -272,8 +262,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -283,34 +283,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "65d6e281-8d78-4e32-81a1-fbfbdd35636f"
+          "25d47aa9-955f-4f2f-a109-3c812c4fa278"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "65d6e281-8d78-4e32-81a1-fbfbdd35636f"
+          "25d47aa9-955f-4f2f-a109-3c812c4fa278"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -319,10 +309,10 @@
           "11995"
         ],
         "x-ms-correlation-request-id": [
-          "e717d6c9-fe2c-4ede-92af-adfb539eb09d"
+          "96a8e168-d032-4df0-86fa-7d6b4e95d6c1"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214450Z:e717d6c9-fe2c-4ede-92af-adfb539eb09d"
+          "WESTUS2:20181105T200728Z:96a8e168-d032-4df0-86fa-7d6b4e95d6c1"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -331,7 +321,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:49 GMT"
+          "Mon, 05 Nov 2018 20:07:28 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -341,8 +331,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -352,34 +352,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "088da0c4-93cb-455d-ac67-9d2e524d85fd"
+          "f9be7105-8471-418c-99a4-79e4e70fa4ff"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "088da0c4-93cb-455d-ac67-9d2e524d85fd"
+          "f9be7105-8471-418c-99a4-79e4e70fa4ff"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -388,10 +378,10 @@
           "11994"
         ],
         "x-ms-correlation-request-id": [
-          "d6dfb271-0e27-4f88-9133-2b44f4a4fb8a"
+          "4896438d-6e56-440a-84f5-9e1c0b6bcf2c"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214500Z:d6dfb271-0e27-4f88-9133-2b44f4a4fb8a"
+          "WESTUS2:20181105T200738Z:4896438d-6e56-440a-84f5-9e1c0b6bcf2c"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -400,7 +390,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:59 GMT"
+          "Mon, 05 Nov 2018 20:07:38 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -410,8 +400,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -421,34 +421,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "a07185cd-2efd-48e4-8bd0-df251034cc98"
+          "a49ef7f1-39dc-452e-bd31-7866814f6faf"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "579"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "a07185cd-2efd-48e4-8bd0-df251034cc98"
+          "a49ef7f1-39dc-452e-bd31-7866814f6faf"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -457,10 +447,10 @@
           "11993"
         ],
         "x-ms-correlation-request-id": [
-          "8447d4ab-b250-4b82-afc3-36c58ec1d438"
+          "6eb1f11f-e68d-46ca-9cf1-bd0b0edc780a"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214510Z:8447d4ab-b250-4b82-afc3-36c58ec1d438"
+          "WESTUS2:20181105T200748Z:6eb1f11f-e68d-46ca-9cf1-bd0b0edc780a"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -469,7 +459,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:10 GMT"
+          "Mon, 05 Nov 2018 20:07:48 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -479,8 +469,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -490,34 +490,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "dee36ce2-4e82-4bd8-b41f-e1360472d13f"
+          "083bca39-8f8a-44df-80e6-0870a0654514"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:45:19.8533333-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"RunningImportModuleRunbook\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "603"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "dee36ce2-4e82-4bd8-b41f-e1360472d13f"
+          "083bca39-8f8a-44df-80e6-0870a0654514"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -526,10 +516,10 @@
           "11992"
         ],
         "x-ms-correlation-request-id": [
-          "eda7c89d-a220-4a28-a710-0523b7f72582"
+          "738022d6-51d2-400e-be34-6049940582b2"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214520Z:eda7c89d-a220-4a28-a710-0523b7f72582"
+          "WESTUS2:20181105T200759Z:738022d6-51d2-400e-be34-6049940582b2"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -538,7 +528,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:20 GMT"
+          "Mon, 05 Nov 2018 20:07:58 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -548,8 +538,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "575"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -559,34 +559,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "e4fe849f-3896-4621-9bae-4f38d97ad1f3"
+          "01e68b63-bd98-4f74-84b9-9e5a674abb39"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:45:25.65-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Succeeded\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "588"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "e4fe849f-3896-4621-9bae-4f38d97ad1f3"
+          "01e68b63-bd98-4f74-84b9-9e5a674abb39"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -595,10 +585,10 @@
           "11991"
         ],
         "x-ms-correlation-request-id": [
-          "c9ac4388-40c3-4e73-a6c5-474b275435ad"
+          "845d0a5c-a2f0-457a-bea4-9e22cf12dbd5"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214530Z:c9ac4388-40c3-4e73-a6c5-474b275435ad"
+          "WESTUS2:20181105T200809Z:845d0a5c-a2f0-457a-bea4-9e22cf12dbd5"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -607,7 +597,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:30 GMT"
+          "Mon, 05 Nov 2018 20:08:08 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -617,8 +607,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "583"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:08:07.14-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"ContentValidated\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -628,34 +628,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "50686652-b829-4612-a545-5b0821b138df"
+          "46c3cf09-2477-4a1a-9922-60fbf6bca9a6"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:45:25.65-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Succeeded\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "588"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "50686652-b829-4612-a545-5b0821b138df"
+          "46c3cf09-2477-4a1a-9922-60fbf6bca9a6"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -664,10 +654,10 @@
           "11990"
         ],
         "x-ms-correlation-request-id": [
-          "08878a4f-d8cf-4cab-9dbb-3cda435f1fd6"
+          "2edd2ee6-f877-48b0-8596-fda0dbb6b371"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214530Z:08878a4f-d8cf-4cab-9dbb-3cda435f1fd6"
+          "WESTUS2:20181105T200819Z:2edd2ee6-f877-48b0-8596-fda0dbb6b371"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -676,7 +666,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:30 GMT"
+          "Mon, 05 Nov 2018 20:08:19 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -686,8 +676,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "588"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:08:12.3733333-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Succeeded\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     },
     {
@@ -697,34 +697,24 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "a7bd5a82-bca0-4aef-920e-79dedaa54ba4"
+          "b044443a-7cfd-4180-ab3b-525028fda774"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:45:31.1966667-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "ResponseHeaders": {
-        "Content-Length": [
-          "592"
-        ],
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Expires": [
-          "-1"
-        ],
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "a7bd5a82-bca0-4aef-920e-79dedaa54ba4"
+          "b044443a-7cfd-4180-ab3b-525028fda774"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -733,10 +723,10 @@
           "11989"
         ],
         "x-ms-correlation-request-id": [
-          "87d36656-f547-49ed-a3ce-f5ad0a1d5487"
+          "659d038f-e346-4515-b609-b974f58a2dce"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214531Z:87d36656-f547-49ed-a3ce-f5ad0a1d5487"
+          "WESTUS2:20181105T200819Z:659d038f-e346-4515-b609-b974f58a2dce"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -745,7 +735,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:31 GMT"
+          "Mon, 05 Nov 2018 20:08:19 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -755,8 +745,153 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "588"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:08:12.3733333-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Succeeded\",\r\n    \"isComposite\": false\r\n  }\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvY2Q0NWYyM2ItYjgzMi00ZmE0LWE0MzQtMWJmN2U2ZjE0YTVhL3Jlc291cmNlR3JvdXBzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1yZy9wcm92aWRlcnMvTWljcm9zb2Z0LkF1dG9tYXRpb24vYXV0b21hdGlvbkFjY291bnRzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1hYS9tb2R1bGVzL1Blc3Rlcj9hcGktdmVyc2lvbj0yMDE1LTEwLTMx",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "fea90d21-71ac-4870-a5da-54154b8478ec"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ]
+      },
+      "ResponseHeaders": {
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "fea90d21-71ac-4870-a5da-54154b8478ec"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "11988"
+        ],
+        "x-ms-correlation-request-id": [
+          "e35c3d40-55c2-4eda-a0a7-01a4450332a7"
+        ],
+        "x-ms-routing-request-id": [
+          "WESTUS2:20181105T200820Z:e35c3d40-55c2-4eda-a0a7-01a4450332a7"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Mon, 05 Nov 2018 20:08:20 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ],
+        "X-AspNet-Version": [
+          "4.0.30319"
+        ],
+        "X-Powered-By": [
+          "ASP.NET"
+        ],
+        "Content-Length": [
+          "587"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:08:19.9833333-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": \"\"\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
+      "StatusCode": 200
+    },
+    {
+      "RequestUri": "/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvY2Q0NWYyM2ItYjgzMi00ZmE0LWE0MzQtMWJmN2U2ZjE0YTVhL3Jlc291cmNlR3JvdXBzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1yZy9wcm92aWRlcnMvTWljcm9zb2Z0LkF1dG9tYXRpb24vYXV0b21hdGlvbkFjY291bnRzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1hYS9tb2R1bGVzL1Blc3Rlcj9hcGktdmVyc2lvbj0yMDE1LTEwLTMx",
+      "RequestMethod": "DELETE",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "d5464292-e99a-4c24-967a-916628c03364"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ]
+      },
+      "ResponseHeaders": {
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "d5464292-e99a-4c24-967a-916628c03364"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [
+          "14999"
+        ],
+        "x-ms-correlation-request-id": [
+          "e5a0ff2b-1ea3-48f1-b334-e95f11791422"
+        ],
+        "x-ms-routing-request-id": [
+          "WESTUS2:20181105T200657Z:e5a0ff2b-1ea3-48f1-b334-e95f11791422"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Mon, 05 Nov 2018 20:06:56 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ],
+        "X-AspNet-Version": [
+          "4.0.30319"
+        ],
+        "X-Powered-By": [
+          "ASP.NET"
+        ],
+        "Content-Length": [
+          "0"
+        ],
+        "Expires": [
+          "-1"
+        ]
+      },
+      "ResponseBody": "",
       "StatusCode": 200
     },
     {
@@ -765,41 +900,31 @@
       "RequestMethod": "PUT",
       "RequestBody": "{\r\n  \"properties\": {\r\n    \"contentLink\": {\r\n      \"uri\": \"https://devopsgallerystorage.blob.core.windows.net/packages/pester.3.0.3.nupkg\"\r\n    }\r\n  },\r\n  \"name\": \"Pester\"\r\n}",
       "RequestHeaders": {
-        "Content-Type": [
-          "application/json; charset=utf-8"
-        ],
-        "Content-Length": [
-          "173"
-        ],
         "x-ms-client-request-id": [
-          "9f53f40b-ecd7-4ff5-8226-a0ff5420cd78"
+          "2fa6ed7a-715a-461c-919d-f91be41940ad"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
           "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
-        ]
-      },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:44:19.4-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
-      "ResponseHeaders": {
-        "Content-Length": [
-          "581"
         ],
         "Content-Type": [
           "application/json; charset=utf-8"
         ],
-        "Expires": [
-          "-1"
-        ],
+        "Content-Length": [
+          "173"
+        ]
+      },
+      "ResponseHeaders": {
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "9f53f40b-ecd7-4ff5-8226-a0ff5420cd78"
+          "2fa6ed7a-715a-461c-919d-f91be41940ad"
         ],
         "x-ms-location": [
           "https://management.azure.com/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31"
@@ -814,10 +939,10 @@
           "1199"
         ],
         "x-ms-correlation-request-id": [
-          "dc777339-08b8-4c16-b250-628914477ed4"
+          "f32ad499-abfb-4b56-a7ef-c254aea9dec9"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214419Z:dc777339-08b8-4c16-b250-628914477ed4"
+          "WESTUS2:20181105T200658Z:f32ad499-abfb-4b56-a7ef-c254aea9dec9"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -826,7 +951,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:44:19 GMT"
+          "Mon, 05 Nov 2018 20:06:57 GMT"
         ],
         "Location": [
           "https://management.azure.com/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31"
@@ -839,51 +964,51 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
-        ]
-      },
-      "StatusCode": 201
-    },
-    {
-      "RequestUri": "/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvY2Q0NWYyM2ItYjgzMi00ZmE0LWE0MzQtMWJmN2U2ZjE0YTVhL3Jlc291cmNlR3JvdXBzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1yZy9wcm92aWRlcnMvTWljcm9zb2Z0LkF1dG9tYXRpb24vYXV0b21hdGlvbkFjY291bnRzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1hYS9tb2R1bGVzL1Blc3Rlcj9hcGktdmVyc2lvbj0yMDE1LTEwLTMx",
-      "RequestMethod": "PATCH",
-      "RequestBody": "{\r\n  \"properties\": {\r\n    \"contentLink\": {\r\n      \"uri\": \"https://devopsgallerystorage.blob.core.windows.net/packages/pester.3.0.3.nupkg\",\r\n      \"version\": \"8272b562-21d6-4cf3-ba8a-1deb12d1180f\"\r\n    }\r\n  },\r\n  \"name\": \"Pester\",\r\n  \"tags\": {}\r\n}",
-      "RequestHeaders": {
-        "Content-Type": [
-          "application/json; charset=utf-8"
         ],
         "Content-Length": [
-          "246"
-        ],
-        "x-ms-client-request-id": [
-          "92233ffe-d6b7-4487-b7ca-9809ba1567de"
-        ],
-        "accept-language": [
-          "en-US"
-        ],
-        "User-Agent": [
-          "FxVersion/4.7.3190.0",
-          "OSName/Windows10Enterprise",
-          "OSVersion/6.3.17763",
-          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
-        ]
-      },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-10-31T14:44:19.3366667-07:00\",\r\n    \"lastModifiedTime\": \"2018-10-31T14:45:25.65-07:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
-      "ResponseHeaders": {
-        "Content-Length": [
-          "589"
+          "577"
         ],
         "Content-Type": [
           "application/json; charset=utf-8"
         ],
         "Expires": [
           "-1"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": null,\r\n    \"sizeInBytes\": 0,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:06:57.92-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
+      "StatusCode": 201
+    },
+    {
+      "RequestUri": "/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester?api-version=2015-10-31",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvY2Q0NWYyM2ItYjgzMi00ZmE0LWE0MzQtMWJmN2U2ZjE0YTVhL3Jlc291cmNlR3JvdXBzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1yZy9wcm92aWRlcnMvTWljcm9zb2Z0LkF1dG9tYXRpb24vYXV0b21hdGlvbkFjY291bnRzL2FuYXRvbGliLWF6dXJlcHMtdGVzdC1hYS9tb2R1bGVzL1Blc3Rlcj9hcGktdmVyc2lvbj0yMDE1LTEwLTMx",
+      "RequestMethod": "PATCH",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"contentLink\": {\r\n      \"uri\": \"https://devopsgallerystorage.blob.core.windows.net/packages/pester.3.0.3.nupkg\",\r\n      \"version\": \"0c2deb04-cb6e-4bf3-a93d-632d174c065f\"\r\n    }\r\n  },\r\n  \"name\": \"Pester\",\r\n  \"tags\": {}\r\n}",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "6f3f264f-d699-4c90-89e5-b78fd80f500b"
         ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.3190.0",
+          "OSName/Windows",
+          "OSVersion/6.3.9600.0",
+          "Microsoft.Azure.Management.Automation.AutomationClient/3.3.0.0"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Content-Length": [
+          "246"
+        ]
+      },
+      "ResponseHeaders": {
         "Pragma": [
           "no-cache"
         ],
         "x-ms-request-id": [
-          "92233ffe-d6b7-4487-b7ca-9809ba1567de"
+          "6f3f264f-d699-4c90-89e5-b78fd80f500b"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -892,10 +1017,10 @@
           "1198"
         ],
         "x-ms-correlation-request-id": [
-          "1e5b299e-ad17-42cb-a3c4-f759b02f8283"
+          "cb313516-c3b9-49d1-bf3e-19d9511f2a7f"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181031T214531Z:1e5b299e-ad17-42cb-a3c4-f759b02f8283"
+          "WESTUS2:20181105T200820Z:cb313516-c3b9-49d1-bf3e-19d9511f2a7f"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -904,7 +1029,7 @@
           "no-cache"
         ],
         "Date": [
-          "Wed, 31 Oct 2018 21:45:31 GMT"
+          "Mon, 05 Nov 2018 20:08:20 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -914,8 +1039,18 @@
         ],
         "X-Powered-By": [
           "ASP.NET"
+        ],
+        "Content-Length": [
+          "589"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
         ]
       },
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/cd45f23b-b832-4fa4-a434-1bf7e6f14a5a/resourceGroups/anatolib-azureps-test-rg/providers/Microsoft.Automation/automationAccounts/anatolib-azureps-test-aa/modules/Pester\",\r\n  \"name\": \"Pester\",\r\n  \"type\": \"Microsoft.Automation/AutomationAccounts/Modules\",\r\n  \"location\": \"westcentralus\",\r\n  \"tags\": {},\r\n  \"etag\": null,\r\n  \"properties\": {\r\n    \"isGlobal\": false,\r\n    \"version\": \"3.0.3\",\r\n    \"sizeInBytes\": 74921,\r\n    \"activityCount\": 0,\r\n    \"creationTime\": \"2018-11-05T12:06:57.89-08:00\",\r\n    \"lastModifiedTime\": \"2018-11-05T12:08:12.3733333-08:00\",\r\n    \"error\": {\r\n      \"code\": null,\r\n      \"message\": null\r\n    },\r\n    \"provisioningState\": \"Creating\",\r\n    \"isComposite\": false\r\n  }\r\n}",
       "StatusCode": 200
     }
   ],
