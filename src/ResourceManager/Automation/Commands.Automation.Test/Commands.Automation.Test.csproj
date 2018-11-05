@@ -61,7 +61,7 @@
     <Compile Include="ScenarioTests\AutomationScenarioTestsBase.cs" />
     <Compile Include="ScenarioTests\AutomationTests.cs" />
     <Compile Include="ScenarioTests\HybridWorkerGroupTests.cs" />
-    <Compile Include="ScenarioTests\Modules\ModuleTests.cs" />
+    <Compile Include="ScenarioTests\ModuleTests.cs" />
     <Compile Include="ScenarioTests\SourceControlTests.cs" />
     <Compile Include="ScenarioTests\UpdateManagementTests.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeConfigurationDeploymentSchedulesTest.cs" />
@@ -127,10 +127,10 @@
     <None Include="ScenarioTests\AutomationTests.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="ScenarioTests\Modules\ModuleTests.ps1">
+    <None Include="ScenarioTests\HybridWorkerGroupTests.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="ScenarioTests\HybridWorkerGroupTests.ps1">
+    <None Include="ScenarioTests\ModuleTests.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="ScenarioTests\SourceControlTests.ps1">
