@@ -5,8 +5,8 @@
 <#
 Setup and tear down methods to configure a basic environment for the tests
 #>
-$script:AutomationAccountName = "mirichmo-aatest-WUS2" # TODO (mirichmo): New name needed!
-$script:ResourceGroupName = "mirichmo-aatest-wus2-rg" # TODO (mirichmo): New name needed!
+$script:AutomationAccountName = "mirichmo-aatest-WUS2"
+$script:ResourceGroupName = "mirichmo-aatest-wus2-rg"
 $script:TestRunbookName = "TestRunbookName"
 $script:TestRunbookTwoParamsName = "TestRunbookTwoParamsName"
 
