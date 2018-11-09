@@ -66,6 +66,7 @@
     <Compile Include="ScenarioTests\ModuleTests.cs" />
     <Compile Include="ScenarioTests\SourceControlTests.cs" />
     <Compile Include="ScenarioTests\UpdateManagementTests.cs" />
+    <Compile Include="ScenarioTests\WebhookTests.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeConfigurationDeploymentSchedulesTest.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeConfigurationTest.cs" />
     <Compile Include="UnitTests\GetAzureAutomationDscNodeReportTest.cs" />
@@ -163,6 +164,9 @@
     <None Include="ScenarioTests\Resources\Write-DebugAndVerboseOutput.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="ScenarioTests\WebhookTests.ps1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="SessionRecords\Commands.Automation.Test.ModuleTests\GetAllModules.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -242,6 +246,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SessionRecords\Commands.Automation.Test.UpdateManagementTests\GetAllSUCsForVM.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\BasicCrud.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetFailureScenarios.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\GetSuccessScenarios.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewFailureParams.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SessionRecords\Commands.Automation.Test.WebhookTests\NewWithParameters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
