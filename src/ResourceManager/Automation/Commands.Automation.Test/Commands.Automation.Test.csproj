@@ -128,13 +128,13 @@
   <ItemGroup>
     <None Include="MSSharedLibKey.snk" />
     <None Include="packages.config" />
-    <None Update="SessionRecords\**\*.json">
+    <None Include="SessionRecords\**\*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ScenarioTests\*.ps1">
+    <None Include="ScenarioTests\*.ps1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ScenarioTests\Resources\*.*">
+    <None Include="ScenarioTests\Resources\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

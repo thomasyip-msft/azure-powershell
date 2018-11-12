@@ -12,7 +12,7 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
-namespace Microsoft.Azure.Commands.ResourceManager.Automation.Test.ScenarioTests.Modules
+namespace Commands.Automation.Test
 {
     using Microsoft.Azure.Commands.Automation.Test;
     using Microsoft.WindowsAzure.Commands.ScenarioTest;
