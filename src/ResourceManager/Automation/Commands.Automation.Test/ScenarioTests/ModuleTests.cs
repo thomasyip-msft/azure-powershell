@@ -54,7 +54,7 @@ namespace Commands.Automation.Test
         }
 
         [Fact]
-        [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait(Category.AcceptanceType, Category.DesktopOnly)]
         [Trait(Category.Service, Category.Automation)]
         public void ImportModule()
         {
