@@ -23,6 +23,8 @@ using Microsoft.WindowsAzure.Commands.Test.Utilities.Common;
 using Microsoft.Azure.ServiceManagemenet.Common.Models;
 using Microsoft.Azure.Test.HttpRecorder;
 using Microsoft.Rest.ClientRuntime.Azure.TestFramework;
+using ResourceManagementClient = Microsoft.Azure.Management.Internal.Resources.ResourceManagementClient;
+using Microsoft.Azure.Management.Storage.Version2017_10_01;
 
 namespace Microsoft.Azure.Commands.Automation.Test
 {
@@ -37,8 +39,10 @@ namespace Microsoft.Azure.Commands.Automation.Test
 
         protected void SetupManagementClients(MockContext context)
         {
+            var resourceManagementClient = GetResourceManagementClient(context);
+            var armStorageManagementClient = GetArmStorageManagementClient(context);
             var automationManagementClient = GetAutomationManagementClient(context);
-            _helper.SetupManagementClients(automationManagementClient);
+            _helper.SetupSomeOfManagementClients(resourceManagementClient, armStorageManagementClient, automationManagementClient);
         }
 
         protected void RunPowerShellTest(XunitTracingInterceptor logger, params string[] scripts)
@@ -46,12 +50,13 @@ namespace Microsoft.Azure.Commands.Automation.Test
             var sf = new StackTrace().GetFrame(1);
             var callingClassType = sf.GetMethod().ReflectedType?.ToString();
             var mockName = sf.GetMethod().Name;
+
             HttpMockServer.RecordsDirectory = GetSessionRecordsDirectory();
             using (var context = MockContext.Start(callingClassType, mockName))
             {
                 SetupManagementClients(context);
 
-                var callingClassName = callingClassType?
+                var callingClassName = callingClassType ?
                     .Split(new[] { "." }, StringSplitOptions.RemoveEmptyEntries)
                     .Last();
 
@@ -59,9 +64,19 @@ namespace Microsoft.Azure.Commands.Automation.Test
                 _helper.SetupModules(
                     scriptLocation,
                     _helper.RMProfileModule,
-                    _helper.GetRMModulePath(@"AzureRM.Automation.psd1"));
+                    _helper.GetRMModulePath(@"AzureRM.Automation.psd1"), "AzureRM.Resources.ps1");
                 _helper.RunPowerShellTest(scripts);
             }
+        }
+
+        protected StorageManagementClient GetArmStorageManagementClient(MockContext context)
+        {
+            return context.GetServiceClient<StorageManagementClient>(TestEnvironmentFactory.GetTestEnvironment());
+        }
+
+        private ResourceManagementClient GetResourceManagementClient(MockContext context)
+        {
+            return context.GetServiceClient<ResourceManagementClient>(TestEnvironmentFactory.GetTestEnvironment());
         }
 
         protected AutomationClient GetAutomationManagementClient(MockContext context)
@@ -74,7 +89,6 @@ namespace Microsoft.Azure.Commands.Automation.Test
         {
             // Note: if you are developing new tests, set the recording directory to a local path.
             //       this is the location where the json files will be created.
-            // var recordsDirectory = Path.Combine("e:\\", "SessionRecords");
             var recordsDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "SessionRecords");
             return recordsDirectory;
         }

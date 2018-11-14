@@ -1,4 +1,4 @@
-﻿// ----------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------
 //
 // Copyright Microsoft Corporation
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,11 +19,11 @@ namespace Commands.Automation.Test
     using Microsoft.Azure.ServiceManagemenet.Common.Models;
     using Xunit;
 
-    public class ModuleTests : AutomationScenarioTestsBase
+    public class WebhookTests : AutomationScenarioTestsBase
     {
         public XunitTracingInterceptor logger;
 
-        public ModuleTests(Xunit.Abstractions.ITestOutputHelper output)
+        public WebhookTests(Xunit.Abstractions.ITestOutputHelper output)
         {
             logger = new XunitTracingInterceptor(output);
             XunitTracingInterceptor.AddToContext(logger);
@@ -32,49 +32,41 @@ namespace Commands.Automation.Test
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void GetAllModules()
+        public void BasicCrud()
         {
-            RunPowerShellTest(logger, "Test-GetAllModules");
+            RunPowerShellTest(logger, "Test-BasicCrud");
         }
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void GetModuleByName()
+        public void NewWithParameters()
         {
-            RunPowerShellTest(logger, "Test-GetModuleByName");
+            RunPowerShellTest(logger, "Test-NewWithParameters");
         }
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void NewModule()
+        public void NewFailureParams()
         {
-            RunPowerShellTest(logger, "Test-NewModule");
-        }
-
-        [Fact]
-        [Trait(Category.AcceptanceType, Category.DesktopOnly)]
-        [Trait(Category.Service, Category.Automation)]
-        public void ImportModule()
-        {
-            RunPowerShellTest(logger, "Test-ImportModule");
+            RunPowerShellTest(logger, "Test-NewFailureParams");
         }
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void SetModule()
+        public void GetSuccessScenarios()
         {
-            RunPowerShellTest(logger, "Test-SetModule");
+            RunPowerShellTest(logger, "Test-GetSuccessScenarios");
         }
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait(Category.Service, Category.Automation)]
-        public void RemoveModule()
+        public void GetFailureScenarios()
         {
-            RunPowerShellTest(logger, "Test-RemoveModule");
+            RunPowerShellTest(logger, "Test-GetFailureScenarios");
         }
     }
 }
